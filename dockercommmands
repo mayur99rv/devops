@@ -1,0 +1,10 @@
+docker build .
+docker build -t <name> .
+docker run -d -p 80:80 <id>
+docker login
+docker tag hello-internet:latest mayur99rv/hello-internet
+docker push mayur99rv/hello-internet
+docker ps
+docker ps -a
+docker run <imagename>
+docker images
